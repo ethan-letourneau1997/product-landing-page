@@ -1,0 +1,188 @@
+*{
+    font-family:'Noto Serif', serif;
+    margin: 0;
+    padding: 0;
+}
+/*Header Section */
+.header{
+    background-color:#DF7861;;
+    color: #FCF8E8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    position: fixed;
+    width: 100%;
+}
+.link{
+    text-decoration: none;
+    color: #FCF8E8;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+.three{
+    margin-right: 270px;
+}
+
+.one, .two{ 
+    margin-right:70px;
+}
+
+.company-name{
+    display: flex;
+    font-size: 26px;
+    margin-left: 260px;
+}
+
+/* Top */
+
+.top{
+    display: flex;
+    justify-content: center;
+    background-color: #94B49F;
+    height: 100vh;
+    margin-bottom: 0;
+    margin-right: 0;
+    align-items: center;
+}
+.left{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+
+}
+.left, .main-image{
+    flex:0 1 30%;
+    margin-top: 70px;
+}
+.main-image{
+    height: 265px;
+    /* border: 2px solid #FCF8E8;*/
+    border-radius: 10px; 
+    margin-left: 30px;
+}
+
+.top-header{
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+.sign-up{
+    width:150px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 15px;
+    background-color: #FCF8E8;
+    font-size: 15px;
+}
+.sign-up-container{
+    display: flex;
+    justify-content: left;
+}
+
+.website-info{
+    font-size: 18px;
+    margin-top: 10px;
+    width: 80%;
+}
+
+/* Middle */
+
+.middle{
+    background-color: #FCF8E8;
+    height: 91vh;
+}
+
+.middle-header{
+    text-align: center;
+    height: 15%;
+}
+.middle-header{
+    font-size: 30px;
+    padding-top: 30px;
+}
+.squareset{
+    display: flex;
+    height: 40%;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    margin-bottom: 20px;
+}
+
+.square{
+    border: 2px solid black;
+    border-radius: 12px;
+    height:160px;
+    flex: 0 1 180px;
+}
+
+.textset{
+    display: flex;
+    height:40%;
+    justify-content: space-evenly;
+}
+.text{
+    flex: 0 1 180px; 
+    text-align: center;
+}
+/* Middle */
+
+.bottom{
+    height: 91vh;
+    background-color:#94B49F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bottom-content{
+    flex: 0 1 45%;
+}
+.quote{
+    font-size: 25px;
+}
+.quote-source{
+    margin-top:20px;
+}
+
+/* Bottom */
+.action{
+    height: 81vh;
+    background-color: #FCF8E8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.med-box{
+    height:200px;
+    flex:0 1 50%;
+    border-radius: 12px;
+    display: flex;
+    background-color: #ECB390;
+}
+.box-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    padding-left: 20px;
+}
+.box-right{
+    display:flex;
+    align-items: center;
+    padding-left: 25px;
+}
+
+.box-right.sign-up{
+    flex: 0 1 60%;
+}
+
+
+
+/* Footer */
+footer{
+    height:10vh;
+    background-color: #94B49F;
+}
